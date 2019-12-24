@@ -18,3 +18,22 @@ print(f)
 for val in f:
     print(val)
 ```
+
+```
+def foo():
+    print("starting...")
+    while True:
+        res = yield 4
+        print("res:",res)
+g = foo()
+print(next(g))
+print("*"*20)
+print(next(g))
+```
+```
+starting...
+4
+********************
+res: None
+4
+```
