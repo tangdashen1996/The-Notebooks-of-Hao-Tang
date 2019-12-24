@@ -19,6 +19,7 @@ for val in f:
     print(val)
 ```
 
+下面代码展示了yield的用法。
 ```
 def foo():
     print("starting...")
