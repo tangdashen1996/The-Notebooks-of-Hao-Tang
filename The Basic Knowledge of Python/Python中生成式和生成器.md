@@ -1,5 +1,5 @@
 我们还可以使用列表的生成式语法来创建列表，代码如下所示。
-```
+```python
 f = [x for x in range(1, 10)]
 print(f)
 f = [x + y for x in 'ABCDE' for y in '1234567']
@@ -20,7 +20,7 @@ for val in f:
 ```
 
 下面代码展示了yield的用法。
-```
+```python
 def foo():
     print("starting...")
     while True:
