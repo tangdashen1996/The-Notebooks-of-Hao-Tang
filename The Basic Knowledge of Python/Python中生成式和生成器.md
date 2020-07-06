@@ -31,7 +31,7 @@ print(next(g))
 print("*"*20)
 print(next(g))
 ```
-```
+```python
 starting...
 4
 ********************
